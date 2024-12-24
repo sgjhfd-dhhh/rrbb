@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圣诞快乐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <audio id="bgMusic" loop>
+            <source src="music/christmas.mp3" type="audio/mp3">
+        </audio>
+        
+        <button id="musicToggle" class="music-btn">🎵</button>
+        
+        <div class="message">
+            <h1>圣诞快乐</h1>
+            <p>愿然然的圣诞节充满欢乐与温暖</p>
+        </div>
+        
+        <div class="trees">
+            <div class="tree" onclick="this.textContent='🎁'">🎄</div>
+            <div class="tree" onclick="this.textContent='👝'">🎄</div>
+            <div class="tree" onclick="this.textContent='👝'">🎄</div>
+        </div>
+
+        <div id="snowContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
